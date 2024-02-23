@@ -4,8 +4,14 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-a {
@@ -17,6 +23,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .nav-span {
@@ -30,6 +37,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
   list-style-type: none;
+  padding: 24px 0;
 }
 .nav-li-a:hover {
   font-weight: 500;
@@ -45,6 +53,25 @@ body {
   letter-spacing: 0.02em; */
   color: #404bbf;
 }
+.body-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-adress {
   font-style: normal;
 }
