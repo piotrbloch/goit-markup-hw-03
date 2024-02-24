@@ -10,6 +10,20 @@ img {
   object-fit: cover;
 }
 
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
