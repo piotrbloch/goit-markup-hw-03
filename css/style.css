@@ -283,7 +283,10 @@ img {
 }
 
 .sectionc-name {
-  padding: 32px 16px 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   /*
   padding: 32px 16px;
   lub
