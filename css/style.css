@@ -6,6 +6,12 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .visually-hidden {
@@ -22,19 +28,16 @@ img {
 }
 
 .list {
-  list-style: none;
   display: flex;
   gap: 40px;
 }
 
 .listb {
-  list-style: none;
   display: flex;
   gap: 24px;
 }
 
 .listd {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -226,6 +229,7 @@ img {
 }
 
 .sectiond-hb {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
