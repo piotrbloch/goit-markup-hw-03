@@ -18,6 +18,7 @@ h3 {
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 p {
@@ -40,7 +41,7 @@ p {
 .list {
   display: flex;
   gap: 40px;
-  list-style-type: none;
+  padding: 24px 0px;
 }
 
 .listb {
@@ -112,6 +113,8 @@ p {
 
 .header-div {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container {
@@ -162,6 +165,8 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
